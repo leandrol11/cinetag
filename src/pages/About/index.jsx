@@ -25,9 +25,9 @@ export default function About() {
                 <TextContainer>
                     <p className="text">
                         Esta página é o 8o projeto de estudos de React que faço
-                        na Alura. Embora eu tenha conservado a temática original,
-                        fiz a estilização utilizando styled components ao invés
-                        de css normal.
+                        na Alura. Além de ter mudado os "filmes" originais, fiz
+                        a estilização utilizando styled components ao invés de
+                        css normal.
                     </p>
                 </TextContainer>
             </Container>

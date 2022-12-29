@@ -14,7 +14,7 @@ export default function CardList() {
     const [videos, setVideos] = useState([])
 
     useEffect(() => {
-        fetch("https://my-json-server.typicode.com/leandrol11/cinetag_api/videos")
+        fetch("https://my-json-server.typicode.com/leandrol11/db_cinetag/videos")
             .then(res => res.json())
             .then(data => {
                 setVideos(data)

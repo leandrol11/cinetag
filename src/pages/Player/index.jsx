@@ -22,7 +22,7 @@ export default function Player() {
     const params = useParams()
 
     useEffect(() => {
-        fetch(`https://my-json-server.typicode.com/leandrol11/cinetag_api/videos?id=${params.id}`)
+        fetch(`https://my-json-server.typicode.com/leandrol11/db_cinetag/videos?id=${params.id}`)
             .then(res => res.json())
             .then(data => {
                 setVideo(...data)
